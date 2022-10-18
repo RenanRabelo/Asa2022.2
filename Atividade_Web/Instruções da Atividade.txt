@@ -1,0 +1,30 @@
+
+atividade_web
+
+#Criar repositório git chamado atividade_web
+#com quatro arquivos
+#Dockerfile1
+FROM nginx:latest
+COPY index1.html /usr/share/nginx/html/index.html
+
+
+#Dockerfile2
+
+FROM nginx:latest
+COPY index2.html /usr/share/nginx/html/index.html
+
+#index1.html
+#index2.html
+
+
+
+Os docker files 1 e 2 devem criar
+1. Container docker com página http 1
+2. Container docker com página http 2
+
+
+# Servidor http
+nginx
+
+Referências
+https://hub.docker.com/_/nginx
