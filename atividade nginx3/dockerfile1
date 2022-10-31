@@ -1,0 +1,6 @@
+FROM nginx:latest
+
+RUN mkdir /usr/share/nginx/asa
+COPY asa.html /usr/share/nginx/asa/index.html
+COPY index1.html /usr/share/nginx/html/index.html
+COPY default1.conf /etc/nginx/conf.d/default.conf
