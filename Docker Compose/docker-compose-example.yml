@@ -1,0 +1,26 @@
+version: "3" #versão do docker-compose
+services:
+  web01:
+    image: nginx
+    container_name: web01
+    restart: always # sempre que o serviço der erro, reiniciar.
+    tty: true
+    ports:
+      - "8080:80" # porta host local -> 8080  ; porta container -> 80
+    networks:
+      - asa-network
+
+  web02:
+    image: nginx
+    container_name: web02
+    restart: always # sempre que o serviço der erro, reiniciar.
+    tty: true
+    ports:
+      - "8081:80"  # porta host local -> 8081 ; porta container -> 80
+    networks:
+      - asa-network
+
+#Docker Networks
+networks:
+  asa-network:
+    driver: bridge
