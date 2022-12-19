@@ -11,7 +11,7 @@ services:                        #criar os serviços
     networks:                    #Rede na qual o container irá funcionar
     - asa-network
 
-   web02:
+  web02:
     build:                       #Vai criar as configurações definidas
       context: ./conf-web02      #busca dentro da pasta "conf-web02"    
       dockerfile: dockerfile2    #seleciona o arquivo dockerfile  
@@ -34,17 +34,17 @@ services:                        #criar os serviços
     - asa-network
 
   proxy:
-   build:                      #Vai criar as configurações definidas de um dockerfile
-    context: ./conf-proxy      #busca dentro da pasta "conf-proxy"    
-    dockerfile: dockerfile     #seleciona o arquivo dockerfile
-  image: proxy                 #Imagem do servidor Docker
-  container_name: proxy        #Nome do container que será criado
-  restart: always              #Reinicia, caso o container pare de funcionar.
-  tty: true                    #Habilita terminal no container criado
-  ports:                       #Porta na qual o container irá executar
-  - "8080:80"                  #"8080" porta do host, "80" porta do container
-  networks:                    #Rede na qual o container irá funcionar
-  - asa-network
+    build:                      #Vai criar as configurações definidas de um dockerfile
+      context: ./conf-proxy      #busca dentro da pasta "conf-proxy"    
+      dockerfile: dockerfile     #seleciona o arquivo dockerfile
+    image: proxy                 #Imagem do servidor Docker
+    container_name: proxy        #Nome do container que será criado
+    restart: always              #Reinicia, caso o container pare de funcionar.
+    tty: true                    #Habilita terminal no container criado
+    ports:                       #Porta na qual o container irá executar
+    - "8080:80"                  #"8080" porta do host, "80" porta do container
+    networks:                    #Rede na qual o container irá funcionar
+      - asa-network
 #DOCKER Networks
 networks:                      #Criar rede do container
   asa-network:                 #Nome da rede
