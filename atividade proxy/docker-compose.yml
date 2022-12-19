@@ -1,0 +1,51 @@
+version: '3'
+services:                        #criar os serviços 
+  web01:
+    build:                       #Vai criar as configurações definidas
+      context: ./conf-web01      #busca dentro da pasta "conf-web01"    
+      dockerfile: dockerfile1    #seleciona o arquivo dockerfile  
+    image: web01                 #imagem do servidor Docker     
+    container_name: web01        #nome do container que será criado
+    restart: always              # Reinicia, caso o container pare de funcionar   
+    tty: true                    #Habilita terminal no container criado
+    networks:                    #Rede na qual o container irá funcionar
+    - asa-network
+
+   web02:
+    build:                       #Vai criar as configurações definidas
+      context: ./conf-web02      #busca dentro da pasta "conf-web02"    
+      dockerfile: dockerfile2    #seleciona o arquivo dockerfile  
+    image: web02                 #imagem do servidor Docker     
+    container_name: web02        #nome do container que será criado
+    restart: always              # Reinicia, caso o container pare de funcionar   
+    tty: true                    #Habilita terminal no container criado
+    networks:                    #Rede na qual o container irá funcionar
+    - asa-network
+
+  web03:
+    build:                       #Vai criar as configurações definidas
+      context: ./conf-web03      #busca dentro da pasta "conf-web03"    
+      dockerfile: dockerfile3    #seleciona o arquivo dockerfile  
+    image: web03                 #imagem do servidor Docker     
+    container_name: web03        #nome do container que será criado
+    restart: always              # Reinicia, caso o container pare de funcionar   
+    tty: true                    #Habilita terminal no container criado
+    networks:                    #Rede na qual o container irá funcionar
+    - asa-network
+
+  proxy:
+   build:                      #Vai criar as configurações definidas de um dockerfile
+    context: ./conf-proxy      #busca dentro da pasta "conf-proxy"    
+    dockerfile: dockerfile     #seleciona o arquivo dockerfile
+  image: proxy                 #Imagem do servidor Docker
+  container_name: proxy        #Nome do container que será criado
+  restart: always              #Reinicia, caso o container pare de funcionar.
+  tty: true                    #Habilita terminal no container criado
+  ports:                       #Porta na qual o container irá executar
+  - "8080:80"                  #"8080" porta do host, "80" porta do container
+  networks:                    #Rede na qual o container irá funcionar
+  - asa-network
+#DOCKER Networks
+networks:                      #Criar rede do container
+  asa-network:                 #Nome da rede
+    driver: bridge             #Tipo da rede
