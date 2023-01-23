@@ -1,0 +1,4 @@
+FROM nginx:latest
+COPY index3.html /usr/share/nginx/html/index.html
+COPY default3.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/nginx.conf
