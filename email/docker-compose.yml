@@ -67,16 +67,16 @@ services:                        #criar os serviços
     build:
       context: ./email
       dockerfile: dockerfile
-      image: email
-      container_name: email
-      hostname: mail.web.br
-      restart: always
-      tty: true
-      ports:
-        - "25:25/tcp"
-        - "587:587/tcp"
-      networks:
-        - asa-network
+    image: email
+    container_name: email
+    hostname: mail.web.br
+    restart: always
+    tty: true
+    ports:
+      - "2525:25/tcp"
+      - "587:587/tcp"
+    networks:
+      - asa-network
            
 #DOCKER Networks
 networks:                      #Criar rede do container
