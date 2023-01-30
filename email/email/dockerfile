@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 RUN apt update
 
+RUN apt-get update --fix-missing
+
 RUN apt upgrade -y
 
 RUN apt install postfix vim dnsutils iputils-ping telnet -y
@@ -9,11 +11,11 @@ RUN apt install postfix vim dnsutils iputils-ping telnet -y
 COPY main.cf /etc/postfix
 
 # Add User
-RUN useradd -c 'User Bob' -m -s /bin/false bob
-RUN useradd -c 'User Jeff' -m -s /bin/false jeff
+RUN useradd -c 'User Bob' -m -s /bin/false Bob
+RUN useradd -c 'User Jeff' -m -s /bin/false Jeff
 
 # Set user passord
-RUN echo "pwd123" | chpasswd bob
-RUN echo "pwd123" | chpasswd jeff
+RUN echo "Bob:pwd123" | chpasswd
+RUN echo "Jeff:pwd456" | chpasswd
 
 CMD ["postfix", "start-fg"]
