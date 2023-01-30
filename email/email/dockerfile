@@ -11,8 +11,8 @@ RUN apt install postfix vim dnsutils iputils-ping telnet -y
 COPY main.cf /etc/postfix
 
 # Add User
-RUN useradd -c 'User Bob' -m -s /bin/false Bob
-RUN useradd -c 'User Jeff' -m -s /bin/false Jeff
+RUN useradd -c 'Bob' -m -s /bin/false Bob
+RUN useradd -c 'Jeff' -m -s /bin/false Jeff
 
 # Set user passord
 RUN echo "Bob:pwd123" | chpasswd
