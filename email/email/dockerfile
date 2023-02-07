@@ -15,11 +15,11 @@ COPY 20-pop3.conf /etc/dovecot/conf.d
 COPY dovecot.conf /etc/dovecot
 
 # Add User
-RUN useradd -c 'Bob' -m -s /bin/false Bob
-RUN useradd -c 'Jeff' -m -s /bin/false Jeff
+RUN useradd -c 'bob' -m -s /bin/false bob
+RUN useradd -c 'jeff' -m -s /bin/false jeff
 
 # Set user password
-RUN echo "Bob:pwd123" | chpasswd
-RUN echo "Jeff:pwd456" | chpasswd
+RUN echo "bob:pwd123" | chpasswd
+RUN echo "jeff:pwd456" | chpasswd
 
 CMD ["postfix", "start-fg"]
