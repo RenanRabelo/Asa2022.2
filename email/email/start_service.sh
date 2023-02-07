@@ -69,13 +69,13 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-337d327fb427.js"></script>
   
 
-  <title>ASA-2022.2/main.cf at main · jeffers0nbrun0/ASA-2022.2</title>
+  <title>ASA-2022.2/start_service.sh at main · jeffers0nbrun0/ASA-2022.2</title>
 
 
 
     
 
-  <meta name="request-id" content="D127:01BE:63BE64:76F457:63E2811D" data-turbo-transient="true" /><meta name="html-safe-nonce" content="ec5942b4938ec3de6465310cf1ee31d19697dc50085bda29a5ba3d4284f956ba" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qZWZmZXJzMG5icnVuMC9BU0EtMjAyMi4yL3RyZWUvbWFpbi9BVElWSURBREUtRU1BSUwvY29uZi1lbWFpbCIsInJlcXVlc3RfaWQiOiJEMTI3OjAxQkU6NjNCRTY0Ojc2RjQ1Nzo2M0UyODExRCIsInZpc2l0b3JfaWQiOiI0NDk2MzIxMzc3NDY2NDgyMTc1IiwicmVnaW9uX2VkZ2UiOiJicmF6aWxzb3V0aCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="f1a9a331340dd9d6ea9840bd053a4700be048076f121eb8e1ba68448d83f9d93" data-turbo-transient="true" />
+  <meta name="request-id" content="D127:01BE:63C06B:76F691:63E28122" data-turbo-transient="true" /><meta name="html-safe-nonce" content="ec5942b4938ec3de6465310cf1ee31d19697dc50085bda29a5ba3d4284f956ba" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qZWZmZXJzMG5icnVuMC9BU0EtMjAyMi4yL3RyZWUvbWFpbi9BVElWSURBREUtRU1BSUwvY29uZi1lbWFpbCIsInJlcXVlc3RfaWQiOiJEMTI3OjAxQkU6NjNDMDZCOjc2RjY5MTo2M0UyODEyMiIsInZpc2l0b3JfaWQiOiI0NDk2MzIxMzc3NDY2NDgyMTc1IiwicmVnaW9uX2VkZ2UiOiJicmF6aWxzb3V0aCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="1fa4e8c01b5e2ca99152c4ed392aa67b82172dc859af37696f49611460e394bc" data-turbo-transient="true" />
 
 
     <meta name="hovercard-subject-tag" content="repository:553719925" data-turbo-transient>
@@ -114,11 +114,11 @@
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/9ebc9941105247d5a642ddf54a0254cf5496843aa06f23c3edfa36b4d674a9cf/jeffers0nbrun0/ASA-2022.2" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="ASA-2022.2/main.cf at main · jeffers0nbrun0/ASA-2022.2" /><meta name="twitter:description" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/9ebc9941105247d5a642ddf54a0254cf5496843aa06f23c3edfa36b4d674a9cf/jeffers0nbrun0/ASA-2022.2" /><meta property="og:image:alt" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ASA-2022.2/main.cf at main · jeffers0nbrun0/ASA-2022.2" /><meta property="og:url" content="https://github.com/jeffers0nbrun0/ASA-2022.2" /><meta property="og:description" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/9ebc9941105247d5a642ddf54a0254cf5496843aa06f23c3edfa36b4d674a9cf/jeffers0nbrun0/ASA-2022.2" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="ASA-2022.2/start_service.sh at main · jeffers0nbrun0/ASA-2022.2" /><meta name="twitter:description" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/9ebc9941105247d5a642ddf54a0254cf5496843aa06f23c3edfa36b4d674a9cf/jeffers0nbrun0/ASA-2022.2" /><meta property="og:image:alt" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ASA-2022.2/start_service.sh at main · jeffers0nbrun0/ASA-2022.2" /><meta property="og:url" content="https://github.com/jeffers0nbrun0/ASA-2022.2" /><meta property="og:description" content="Contribute to jeffers0nbrun0/ASA-2022.2 development by creating an account on GitHub." />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/48036327/ws?session=eyJ2IjoiVjMiLCJ1Ijo0ODAzNjMyNywicyI6MTA0ODE2NzE4OCwiYyI6MzgwMjE4MzY5NywidCI6MTY3NTc4ODU3OH0=--56f24a55b83a9b5d89adc1df67383e728d25a1178d73ea668c577486651a8cde" data-refresh-url="/_alive" data-session-id="6cbf50040e884c785a9994ebfbea4b7ad2a87f703d10e76748eeeeeac7b21b25">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/48036327/ws?session=eyJ2IjoiVjMiLCJ1Ijo0ODAzNjMyNywicyI6MTA0ODE2NzE4OCwiYyI6MTA3NDY0NjcsInQiOjE2NzU3ODg1ODN9--d9589a5b62347cfa469c10fbf71ff842e7df666f230834925a1e81a95140d0d2" data-refresh-url="/_alive" data-session-id="6cbf50040e884c785a9994ebfbea4b7ad2a87f703d10e76748eeeeeac7b21b25">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-d7c2fe14563a.js">
 
 
@@ -148,7 +148,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -241,7 +241,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="W5jV2DFO8xuRRj6FKqvw6e5tbQUbSImMVLmdOBhYbBSCeourumXOE43ySyNLdjdCiA-30A63K1CNBiE7RGBVLw" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="puP4aPG1ImxZFDOQVEZPbbHkPSu0iQ54TGv2YfTIPot_AaYbep4fZEWgRjY1m4jG14bn_qF2rKSV1EpiqPAHsA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -440,7 +440,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;RenanRabelo&quot;,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="7c90c58f10dbb394c9149441ae181676d40f423245b484f2c862e87792cc3144" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;RenanRabelo&quot;,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="b852d61796e350b28f0e30ae0bf2a712508cef380cfe55cdb13fc4ad749c6bb3" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -448,7 +448,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/48036327?s=40&amp;v=4" width="20" height="20" alt="@RenanRabelo" />
       RenanRabelo
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TscbFEguFCYfB1NlPRE5ZXQpGWFlSaxNKddjr3TCnEwGP3qYfI1vmQYs77EarHVDH2JWZPupcYBVPyiYBfSCvw" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e8hg5oyNT9BcsSU6duaKtHOV2jRuFoQOlR7fPwEjq9EzMAFquC40b0Wame5RW8aSGN6VMfD2WcPp9pQIcBW1Ig" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -483,7 +483,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDgwMzYzMjciLCJ0IjoxNjc1Nzg4NTc4fQ==--104cd1d280c43195f7e70e2201a6a9aac6252157ebe9e1f3fb7147ade1e8522b" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-fetch-indicator-src="/notifications/indicator" data-fetch-indicator-enabled="true" data-view-component="true" class="js-socket-channel">
+<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDgwMzYzMjciLCJ0IjoxNjc1Nzg4NTgzfQ==--beffee8f79708d3f83d5a9b871c5cd89a325a2b206c428ff242768d427e8834a" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-fetch-indicator-src="/notifications/indicator" data-fetch-indicator-enabled="true" data-view-component="true" class="js-socket-channel">
   <a id="AppHeader-notifications-button" href="/notifications"
     class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
 
@@ -641,7 +641,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf
+      return-to=/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh
       user-id="48036327"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -798,7 +798,7 @@
     <button aria-keyshortcuts="Control+Backspace" data-action="click:command-palette-input#onClear keypress:command-palette-input#onClear" data-target="command-palette-input.clearButton" id="command-palette-clear-button" hidden="hidden" type="button" data-view-component="true" class="btn-octicon command-palette-input-clear-button">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill">
     <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"></path>
 </svg>
-</button>    <tool-tip id="tooltip-1d11f082-3185-4dba-91cb-62ad8e65d97d" for="command-palette-clear-button" data-direction="w" data-type="label" data-view-component="true" class="sr-only position-absolute">Clear Command Palette</tool-tip>
+</button>    <tool-tip id="tooltip-b32ea04f-26ff-4f3f-b038-f0d6631c02af" for="command-palette-clear-button" data-direction="w" data-type="label" data-view-component="true" class="sr-only position-absolute">Clear Command Palette</tool-tip>
 </div>
       </command-palette-input>
 
@@ -1608,7 +1608,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="e9f97cdb4d901d18ea383261da9d9de3bff44c440aad8aa6fd86bcb8992622a2" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="a064530e3cdffc2cfc5205e5a8faaf8ec6a5b97bcef7019dc6acb6f240f45e59" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1660,7 +1660,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="x_jq0kHKWDu1ROqnwnuXnGu0FXrWGa2Oq8_AH601suzRTKwSB2stIIc8a-TUXEX_0Q7RMiPlWPg_QXg5Ev_Ygw" autocomplete="off" />
+              <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BjhD_vpVaySMoQ0bnsYzdlx7ax_sC-VTT6NJEeu7-3EQjAU-vPQeP77ZjFiI4eEV5sGvVxn3ECXbLfE3VHGRHg" autocomplete="off" />
 
                 <input type="hidden" name="repository_id" value="553719925">
 
@@ -1788,7 +1788,7 @@
           hidden
         >
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="G07iL0US8fi8EYiod7QULmuThvlncEQMoxZF7dfs5KoN-qTvA7OE445pCethk8ZN0SlCsZKMsXo3mP3LaCaOxQ" autocomplete="off" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="-eRIdXouqPhnx7Y1A8mloyzP6cUGig8s5AeWht9hqQTvUA61PI_d41W_N3YV7nfAlnUtjfN2-lpwiS6gYKvDaw" autocomplete="off" />
 
               <input type="hidden" name="repository_id" value="553719925">
 
@@ -1940,11 +1940,11 @@
   <li>
         <div data-view-component="true" class="d-flex">
         <div data-view-component="true" class="position-relative d-inline-block">
-    <a icon="repo-forked" id="fork-button" href="/jeffers0nbrun0/ASA-2022.2/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="34e8d4760da041bd30ce8bba855690d2a1a12b910baee7264e196aebff79b01b" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" data-view-component="true" class="btn-sm btn BtnGroup-item border-right-0">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+    <a icon="repo-forked" id="fork-button" href="/jeffers0nbrun0/ASA-2022.2/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="be4bcedf4a47d74c42a6dcfc9e7d8a0fdc854def78b61fb08b4f38d090afe3d2" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" data-view-component="true" class="btn-sm btn BtnGroup-item border-right-0">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="0" data-view-component="true" class="Counter">0</span>
-</a>    <tool-tip id="tooltip-c04bef23-909c-4c47-80d9-db37f8f87d0c" for="fork-button" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">Fork your own copy of jeffers0nbrun0/ASA-2022.2</tool-tip>
+</a>    <tool-tip id="tooltip-2d44a79d-c3b4-4538-9e7c-bec88075dfbf" for="fork-button" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">Fork your own copy of jeffers0nbrun0/ASA-2022.2</tool-tip>
 </div>
       <details group_item="true" id="my-forks-menu-553719925" data-view-component="true" class="details-reset details-overlay BtnGroup-parent d-inline-block position-relative">
               <summary aria-label="See your forks of this repository" data-view-component="true" class="btn-sm btn BtnGroup-item px-2 float-none">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
@@ -1959,13 +1959,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-b615d8">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-71bea4">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-b615d8"
+        id="filter-menu-71bea4"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2007,10 +2007,10 @@
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-flex">
     <div data-view-component="true" class="starred BtnGroup flex-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GyJM8IGdCuLkdWfODkDqdBEESnEuvRpYQ3ClzN0r2h48uHcYlI1K1NgYqoVCYc1AWPjEzhByZZTgNsXA3pxa-A" autocomplete="off" />
-          <input type="hidden" value="6MuvIJTH4skbuRey4YLBJvAlSgnulYwIBVrFV4YgqjrPUZTIgdei_yfU2vmto-YSudnEttBa88SmHKVbhZcq3A" data-csrf="true" class="js-confirm-csrf-token" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sbdslbtSeBIDEfs6i9KgVtPjwslr_REWYRqdBUkCSTyWLVd9rkI4JD98NnHH84dimh9MdlUybtrCXP0JSrXJ2g" autocomplete="off" />
+          <input type="hidden" value="UJbPh_fVCg1G52TKHN8o-8NA7QEybHuAnYspZuxmeeN3DPRv4sVKO3qKqYFQ_g_PirxjvgyjBEw-zUlq79H5BQ" data-csrf="true" class="js-confirm-csrf-token" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="d070b48372e5803b8f4de8aa3b295a0356449cd91f40f410a4d89ab2c3bea20a" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (0)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="61830f3eb18884657007c050c8661e3666f810a4508e7537de9fe87f9a95e2ad" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (0)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Starred
@@ -2028,13 +2028,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-62d227">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-dbd7bc">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-62d227"
+        id="filter-menu-dbd7bc"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2055,9 +2055,9 @@
 </details>
 </div>
     <div data-view-component="true" class="unstarred BtnGroup flex-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="_Et8NFzZuax5P__bTtHVwiryr8SASSxOnVV3QHX0MGE7hN4edrxjJJTzjJC3FWagmnLhCfuzH_73vjXAI44reQ" autocomplete="off" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wFWfdIWgPdBEQGE7WJ_d6S2ZrSYfbO3mxpkPEo8L_D4Hmj1er8XnWKmMEnChW26LnRnj62SW3lasck2S2XHnJg" autocomplete="off" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="120e15cb9dce02ea6ac084ae262086ca241d5c8bec4f837df441647534fafc6a" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (0)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="e3eb7b69abe61a1c467f7bb27ee0fb13de42e43ccaceaa9f384bd985b33bb3f4" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (0)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Star
@@ -2075,13 +2075,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-62d227">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-dbd7bc">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-62d227"
+        id="filter-menu-dbd7bc"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2268,7 +2268,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jeffers0nbrun0/ASA-2022.2/blob/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jeffers0nbrun0/ASA-2022.2/blob/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2276,7 +2276,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="ef8bd1c45187a70421135979600e4db51ad2f43a215379872c5b17aa5fb44851">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="a71310fb16979edcd51b7666b018cc625377d9b848131a0ff9d46b03e3671187">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2357,7 +2357,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/{{ urlEncodedRefName }}/ATIVIDADE-EMAIL/conf-email/main.cf" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/{{ urlEncodedRefName }}/ATIVIDADE-EMAIL/conf-email/start_service.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2399,7 +2399,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/{{ urlEncodedRefName }}/ATIVIDADE-EMAIL/conf-email/main.cf" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/{{ urlEncodedRefName }}/ATIVIDADE-EMAIL/conf-email/start_service.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2460,7 +2460,7 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2"><span>ASA-2022.2</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2/tree/main/ATIVIDADE-EMAIL"><span>ATIVIDADE-EMAIL</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2/tree/main/ATIVIDADE-EMAIL/conf-email"><span>conf-email</span></a></span><span class="separator">/</span><strong class="final-path">main.cf</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2"><span>ASA-2022.2</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2/tree/main/ATIVIDADE-EMAIL"><span>ATIVIDADE-EMAIL</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/jeffers0nbrun0/ASA-2022.2/tree/main/ATIVIDADE-EMAIL/conf-email"><span>conf-email</span></a></span><span class="separator">/</span><strong class="final-path">start_service.sh</strong>
   </h2>
     <a href="/jeffers0nbrun0/ASA-2022.2/find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
@@ -2471,7 +2471,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="dca63e201f8ad7602cc6a0aa1f3f55522de65eb4eacdb6ce52e67abe5c2a8047" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/jeffers0nbrun0/ASA-2022.2/find/main">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="6fa04d481eacd49d89543763e506cbf50ed1a1bce23448fd2d9cf164a2e71938" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/jeffers0nbrun0/ASA-2022.2/find/main">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2483,13 +2483,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="ATIVIDADE-EMAIL/conf-email/main.cf" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="ATIVIDADE-EMAIL/conf-email/start_service.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/jeffers0nbrun0/ASA-2022.2/blob/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2521,7 +2521,7 @@
     <include-fragment src="/jeffers0nbrun0/ASA-2022.2/spoofed_commit_check/86a6390e05aa8559e23efcad9d646ac90e77772e" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/jeffers0nbrun0/ASA-2022.2/contributors/main/ATIVIDADE-EMAIL/conf-email/main.cf" class="commit-loader">
+  <include-fragment src="/jeffers0nbrun0/ASA-2022.2/contributors/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2555,23 +2555,23 @@
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      47 lines (36 sloc)
+      7 lines (5 sloc)
       <span class="file-info-divider"></span>
-    1.41 KB
+    105 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/jeffers0nbrun0/ASA-2022.2/raw/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf" href="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/main.cf" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/jeffers0nbrun0/ASA-2022.2/blame/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf" href="/jeffers0nbrun0/ASA-2022.2/blame/main/ATIVIDADE-EMAIL/conf-email/main.cf" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/jeffers0nbrun0/ASA-2022.2/raw/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh" href="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/jeffers0nbrun0/ASA-2022.2/blame/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh" href="/jeffers0nbrun0/ASA-2022.2/blame/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" >
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/main.cf" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bumK65kFS8wV56i2EZryFEr4ve4RrAo62a_2c8h34OjzixEPy6cbtM7yqlOvg-SErQ6AOsVmo6lbpqHkmmB0kQ" autocomplete="off" />
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YwZEW_AYsH8rguTUQBp2mPqXuYWboY0QtXVJeqiAMDK4qKnEONMVjgQ6K4u9tXZQvraFKYzfpdftiDsSgJffNg" autocomplete="off" />
       <button title="Fork this repository and edit the file" data-hotkey="e" data-disable-with="" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -2581,7 +2581,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/main.cf" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="xu3Mg2MPnRaVdKsPT4wDr_TACU0yMH6nY2ZwB-8fFaZbj1dnMa3Nbk5hqerxlRU_EzY0meb61zThbyeQvQiB3w" autocomplete="off" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tzn4Au0iEp0TKBrVXAoLCrDVTePtQfNc6c2b2BFSXc5slxWdJem3bDyQ1YqhpQvC9PRxT_o_25uxMOmwOUWyyg" autocomplete="off" />
               <button title="Fork this repository and edit the file" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2600,10 +2600,10 @@
 
         
 <div >
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/jeffers0nbrun0/ASA-2022.2/raw/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/jeffers0nbrun0/ASA-2022.2/raw/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="78edcdfc77155470e3112ab46914ed72c405b08a07558af0255e6a999b864a25" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="5cbf62ef9ec428a0a380d6aec83b44f4302920085f7b7870446a9a38e89f59b2" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2628,7 +2628,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/delete/main/ATIVIDADE-EMAIL/conf-email/main.cf" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6xGrKvqP4ExP03YxadPgzGwTFud3xW8rQ2Yu9p4kEGvDUTDLOvXLPbrDRDWwZkUSFrZO3vuaHKLUDsnacq_CKw" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/jeffers0nbrun0/ASA-2022.2/delete/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bCb6SLzkOCLd0AzxcTePT6VEipARmQpAeb35f0AqMPAsjgaTZh-xv6Swfjtk6U-9_1dz6ZAn0OfYf-OnpM4-Cw" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this repository and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2661,15 +2661,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/main.cf">
+            <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/start_service.sh">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/main.cf" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/jeffers0nbrun0/ASA-2022.2/raw/main/ATIVIDADE-EMAIL/conf-email/start_service.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/main.cf&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="78edcdfc77155470e3112ab46914ed72c405b08a07558af0255e6a999b864a25">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:553719925,&quot;originating_url&quot;:&quot;https://github.com/jeffers0nbrun0/ASA-2022.2/blob/main/ATIVIDADE-EMAIL/conf-email/start_service.sh&quot;,&quot;user_id&quot;:48036327}}" data-hydro-click-hmac="5cbf62ef9ec428a0a380d6aec83b44f4302920085f7b7870446a9a38e89f59b2">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2692,20 +2692,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/blame/main/ATIVIDADE-EMAIL/conf-email/main.cf">
+              <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/blame/main/ATIVIDADE-EMAIL/conf-email/start_service.sh">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/main.cf">Edit file</a>
+                <a class="dropdown-item" href="/jeffers0nbrun0/ASA-2022.2/edit/main/ATIVIDADE-EMAIL/conf-email/start_service.sh">Edit file</a>
               </li>
                 <li>
                   <a data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:553719925,&quot;actor_id&quot;:48036327,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/" data-view-component="true" class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/jeffers0nbrun0/ASA-2022.2/delete/main/ATIVIDADE-EMAIL/conf-email/main.cf">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/jeffers0nbrun0/ASA-2022.2/delete/main/ATIVIDADE-EMAIL/conf-email/start_service.sh">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2714,7 +2714,7 @@
 
 
       
-    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text  gist-border-0">
+    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-shell  gist-border-0">
 
         
 <div class="js-check-bidi js-blob-code-container blob-code-content">
@@ -2742,205 +2742,36 @@
 </svg>
 </span></template>
 
-  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="" data-tagsearch-path="ATIVIDADE-EMAIL/conf-email/main.cf">
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="Shell" data-tagsearch-path="ATIVIDADE-EMAIL/conf-email/start_service.sh">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
-          <td id="LC1" class="blob-code blob-code-inner js-file-line"># See /usr/share/postfix/main.cf.dist for a commented, more complete version</td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span></td>
         </tr>
         <tr>
           <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
-          <td id="LC2" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>iniciando postfix<span class="pl-pds">&quot;</span></span></td>
         </tr>
         <tr>
           <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line">postfix start-fg</td>
         </tr>
         <tr>
           <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
-          <td id="LC4" class="blob-code blob-code-inner js-file-line"># Debian specific:  Specifying a file name will cause the first</td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
-          <td id="LC5" class="blob-code blob-code-inner js-file-line"># line of that file to be used as the name.  The Debian default</td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>iniciando dovecot<span class="pl-pds">&quot;</span></span></td>
         </tr>
         <tr>
           <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
-          <td id="LC6" class="blob-code blob-code-inner js-file-line"># is /etc/mailname.</td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line">service dovecot start  </td>
         </tr>
         <tr>
           <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
-          <td id="LC7" class="blob-code blob-code-inner js-file-line">#myorigin = /etc/mailname</td>
-        </tr>
-        <tr>
-          <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
-          <td id="LC8" class="blob-code blob-code-inner js-file-line">
+          <td id="LC7" class="blob-code blob-code-inner js-file-line">
 </td>
-        </tr>
-        <tr>
-          <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
-          <td id="LC9" class="blob-code blob-code-inner js-file-line">myorigin = asa.br</td>
-        </tr>
-        <tr>
-          <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
-          <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
-          <td id="LC11" class="blob-code blob-code-inner js-file-line">smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)</td>
-        </tr>
-        <tr>
-          <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
-          <td id="LC12" class="blob-code blob-code-inner js-file-line">biff = no</td>
-        </tr>
-        <tr>
-          <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
-          <td id="LC13" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
-          <td id="LC14" class="blob-code blob-code-inner js-file-line"># appending .domain is the MUA&#39;s job.</td>
-        </tr>
-        <tr>
-          <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
-          <td id="LC15" class="blob-code blob-code-inner js-file-line">append_dot_mydomain = no</td>
-        </tr>
-        <tr>
-          <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
-          <td id="LC16" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
-          <td id="LC17" class="blob-code blob-code-inner js-file-line"># Uncomment the next line to generate &quot;delayed mail&quot; warnings</td>
-        </tr>
-        <tr>
-          <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
-          <td id="LC18" class="blob-code blob-code-inner js-file-line">#delay_warning_time = 4h</td>
-        </tr>
-        <tr>
-          <td id="L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
-          <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
-          <td id="LC20" class="blob-code blob-code-inner js-file-line">readme_directory = no</td>
-        </tr>
-        <tr>
-          <td id="L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
-          <td id="LC21" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
-          <td id="LC22" class="blob-code blob-code-inner js-file-line"># See http://www.postfix.org/COMPATIBILITY_README.html -- default to 2 on</td>
-        </tr>
-        <tr>
-          <td id="L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
-          <td id="LC23" class="blob-code blob-code-inner js-file-line"># fresh installs.</td>
-        </tr>
-        <tr>
-          <td id="L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
-          <td id="LC24" class="blob-code blob-code-inner js-file-line">compatibility_level = 2</td>
-        </tr>
-        <tr>
-          <td id="L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
-          <td id="LC25" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
-          <td id="LC26" class="blob-code blob-code-inner js-file-line"># TLS parameters</td>
-        </tr>
-        <tr>
-          <td id="L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
-          <td id="LC27" class="blob-code blob-code-inner js-file-line">smtpd_tls_security_level = none</td>
-        </tr>
-        <tr>
-          <td id="L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
-          <td id="LC28" class="blob-code blob-code-inner js-file-line">#smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem</td>
-        </tr>
-        <tr>
-          <td id="L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
-          <td id="LC29" class="blob-code blob-code-inner js-file-line">#smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key</td>
-        </tr>
-        <tr>
-          <td id="L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
-          <td id="LC30" class="blob-code blob-code-inner js-file-line">#smtpd_tls_security_level=may</td>
-        </tr>
-        <tr>
-          <td id="L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
-          <td id="LC31" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
-          <td id="LC32" class="blob-code blob-code-inner js-file-line">#smtp_tls_CApath=/etc/ssl/certs</td>
-        </tr>
-        <tr>
-          <td id="L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
-          <td id="LC33" class="blob-code blob-code-inner js-file-line">#smtp_tls_security_level=may</td>
-        </tr>
-        <tr>
-          <td id="L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
-          <td id="LC34" class="blob-code blob-code-inner js-file-line">#smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache</td>
-        </tr>
-        <tr>
-          <td id="L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
-          <td id="LC35" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
-          <td id="LC36" class="blob-code blob-code-inner js-file-line">#smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination</td>
-        </tr>
-        <tr>
-          <td id="L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
-          <td id="LC37" class="blob-code blob-code-inner js-file-line">myhostname = mail.asa.br</td>
-        </tr>
-        <tr>
-          <td id="L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
-          <td id="LC38" class="blob-code blob-code-inner js-file-line">alias_maps = hash:/etc/aliases</td>
-        </tr>
-        <tr>
-          <td id="L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
-          <td id="LC39" class="blob-code blob-code-inner js-file-line">alias_database = hash:/etc/aliases</td>
-        </tr>
-        <tr>
-          <td id="L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
-          <td id="LC40" class="blob-code blob-code-inner js-file-line">mydestination = $myhostname, /etc/mailname, localhost, localhost.localdomain, localhost</td>
-        </tr>
-        <tr>
-          <td id="L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
-          <td id="LC41" class="blob-code blob-code-inner js-file-line">relayhost = </td>
-        </tr>
-        <tr>
-          <td id="L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
-          <td id="LC42" class="blob-code blob-code-inner js-file-line">mynetworks = 127.0.0.0/8 10.0.0.0/8 192.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128</td>
-        </tr>
-        <tr>
-          <td id="L43" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="43"></td>
-          <td id="LC43" class="blob-code blob-code-inner js-file-line">mailbox_size_limit = 0</td>
-        </tr>
-        <tr>
-          <td id="L44" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="44"></td>
-          <td id="LC44" class="blob-code blob-code-inner js-file-line">recipient_delimiter = +</td>
-        </tr>
-        <tr>
-          <td id="L45" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="45"></td>
-          <td id="LC45" class="blob-code blob-code-inner js-file-line">inet_interfaces = all</td>
-        </tr>
-        <tr>
-          <td id="L46" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="46"></td>
-          <td id="LC46" class="blob-code blob-code-inner js-file-line">inet_protocols = all</td>
-        </tr>
-        <tr>
-          <td id="L47" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="47"></td>
-          <td id="LC47" class="blob-code blob-code-inner js-file-line">home_mailbox = Maildir/</td>
         </tr>
   </table>
 </div>
@@ -2966,7 +2797,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/jeffers0nbrun0/ASA-2022.2/blame/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/main.cf">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/jeffers0nbrun0/ASA-2022.2/blame/86a6390e05aa8559e23efcad9d646ac90e77772e/ATIVIDADE-EMAIL/conf-email/start_service.sh">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/jeffers0nbrun0/ASA-2022.2/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
