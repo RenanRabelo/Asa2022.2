@@ -72,9 +72,15 @@ services:                        #criar os serviços
     hostname: mail.web.br
     restart: always
     tty: true
+    volumes:
+      - ./email/rainloop:/var/www/html/rainloop
     ports:
       - "2525:25/tcp"
       - "587:587/tcp"
+      - "100:100/tcp"
+      - "143:143/tcp"
+      - "993:993/tcp"
+      - "995:995/tcp"
     networks:
       - asa-network
            
